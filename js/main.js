@@ -18,8 +18,9 @@ respuestas += prompt("Pregunta #1\n\n \
                     3) Opción 3 \n \
                     4) Opción 4 \n \
                     ");
-
+                    
 respuestas += prompt("Pregunta #2\n\n \
+                    [Recuerde ingresar sólo el número de la opción]\n \
                     Ingrese las opciones:\n \
                     ==========================\n\n \
                     1) Opción 1 \n \
@@ -28,6 +29,7 @@ respuestas += prompt("Pregunta #2\n\n \
                     4) Opción 4 \n \
                     ");
 respuestas += prompt("Pregunta #3\n\n \
+                    [Recuerde ingresar sólo el número de la opción]\n \
                     Ingrese las opciones:\n \
                     ==========================\n\n \
                     1) Opción 1 \n \
@@ -36,6 +38,7 @@ respuestas += prompt("Pregunta #3\n\n \
                     4) Opción 4 \n \
                     ");
 respuestas += prompt("Pregunta #4\n\n \
+                    [Recuerde ingresar sólo el número de la opción]\n \
                     Ingrese las opciones:\n \
                     ==========================\n\n \
                     1) Opción 1 \n \
