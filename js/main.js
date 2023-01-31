@@ -75,7 +75,7 @@ for (let n = 0; n < correctas.length; n++) {
 }
 
 // Cálculo de puntaje para colocar en pantalla un mensaje personalizado según el puntaje obtenido.
-if (puntaje >= 0 && puntaje <= 1 ) {
+if (puntaje >= 0 && puntaje <= 2 ) {
     mensaje = "¡Hay que repasar muchos conceptos básicos!";
 } else if (puntaje >= ( correctas.length )/2    &&      puntaje <= ( correctas.length ) -1 ) {
     mensaje = "¡Bien ahí, algo te acordás. Te falta un poco repasar igual! Siempre se puede mejorar.";
