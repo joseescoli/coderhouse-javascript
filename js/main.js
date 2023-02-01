@@ -44,8 +44,9 @@ let opciones6 = " \
 // Definición de funciones
 function pregunta (n) {
     // Falta verificar que el ingreso de la opción sea unicamente una cifra.
-
-        let respuesta = prompt(" === Pregunta #" + n + " ===\n" +
+    let respuesta = "";
+    do {
+        respuesta = prompt(" === Pregunta #" + n + " ===\n" +
         eval("pregunta"+ n) + 
         "\n==========================\n" +
         "[Recuerde ingresar sólo el número de la opción]\n" +
@@ -53,7 +54,10 @@ function pregunta (n) {
         "==========================\n" +
         eval("opciones"+ n));
         // alert(respuesta.length);
-
+        if (respuesta.length != 1) {
+            alert("Debe ingresar sólo un número.")
+        }
+    } while (respuesta.length != 1);
     return respuesta;
 }
 
