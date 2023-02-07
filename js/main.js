@@ -43,7 +43,6 @@ let opciones6 = " \
 
 // Definición de funciones
 function pregunta (n) {
-    // Falta verificar que el ingreso de la opción sea unicamente una cifra.
     let respuesta = "";
     do {
         respuesta = prompt(" === Pregunta #" + n + " ===\n" +
