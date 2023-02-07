@@ -52,7 +52,7 @@ function pregunta (n) {
         "Opciones:\n" +
         "==========================\n" +
         eval("opciones"+ n));
-        // alert(respuesta.length);
+
         if (respuesta.length != 1) {
             alert("Debe ingresar sólo un número.")
         }
